@@ -44,10 +44,10 @@ Aplikacja nie jest intuicyjna:
 
 Znalezione błędy: 
 - w zakładce raporty, po kliknięciu "dodaj raport" nie wyświetla się formularz dla raportu tylko następuje przekierowanie do zakładki mecze
-- dodając nowego gracza u dołu strony wyświetlają się przyciski "submit" i "clear" w języku angielskim, podczas gdy wybrany jest język polski. Przełączając z kolei na wersję angielską nadal w formularzu pozostają polskie napisy „łączy nas piłka”, „90” minut”, „profil Facebook”
+- w fomularzu "Dodaj gracza" u dołu strony wyświetlają się przyciski "submit" i "clear" w języku angielskim, podczas gdy wybrany jest język polski. Przełączając z kolei na wersję angielską nadal w formularzu pozostają polskie napisy „łączy nas piłka”, „90” minut”, „profil Facebook”
 - inputy w formularzach są walidowane dopiero po wpisaniu w nich tekstu. Przed edycją i próbą zasubmitowania nie wszystkie boxy podświetlają się na czerwono, pomimo tego, że są wymagane (*)
 - na stronie głównej w „niezapisany mecz” kliknięcie "wróć do raportu" nie wywołuje żadnej akcji (błąd : *Error: The provided `as` value (/pl/players/6026b48956c79737b3f3c624/reports/start) is incompatible with the `href` value)*
-- okno przypomnienie hasła - po wpisaniu maila i kliknięciu "wyślij" wyskakuje błąd z kodem 400, *error: "Bad Request”,…} {code: "EENVELOPE", response: "550 You are not allowed to send e-mails as the domain strapi.io",…}*
+- w oknie przypomnienie hasła, po wpisaniu maila i kliknięciu "wyślij" wyskakuje błąd z kodem 400, *error: "Bad Request”,…} {code: "EENVELOPE", response: "550 You are not allowed to send e-mails as the domain strapi.io",…}*
 - średni performance strony (52).
 
 # TASK 2
