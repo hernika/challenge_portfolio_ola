@@ -59,3 +59,9 @@ https://docs.google.com/document/d/1wDDg-fQlvjPodV73Y08fFO8t7FiN6_Oyw_HO131Oi9o/
 👉🏼*Po co piszemy test case'y?*
 
 Test case'y wprowadzają porządek w procesie testowania. Odpowiednie przygotowanie opisu, kroków oraz oczekiwanych rezultatów znacznie ułatwia testowanie w późniejszym etapie. Dodatkowo, dzięki dobrze napisanym test case'om, nawet w przypadku konieczności przejęcia testowania przez nową osobę, proces nie zostanie przerwany, a nowy tester nie będzie musiał poświęcać dużo czasu na wdrożenie się. Pokazuje to, że test case'y są także ważnym elementem zachowania ciągłości w procesie testowania.
+
+# TASK 2
+## Subtask 2
+https://docs.google.com/document/d/1FK2TEWrLuFr02J29zVT9VTaJZT6U-PLqpZ49fWRbUhU/edit
+## Subtask 3
+https://docs.google.com/document/d/1FtpaKDCT8lcfIy15LBsUnrQXhXCnebKLcTzYDOxt9n8/edit
