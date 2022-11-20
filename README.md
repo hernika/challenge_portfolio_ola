@@ -65,3 +65,34 @@ Test case'y wprowadzają porządek w procesie testowania. Odpowiednie przygotowa
 https://docs.google.com/document/d/1FK2TEWrLuFr02J29zVT9VTaJZT6U-PLqpZ49fWRbUhU/edit
 ## Subtask 3
 https://docs.google.com/document/d/1FtpaKDCT8lcfIy15LBsUnrQXhXCnebKLcTzYDOxt9n8/edit
+
+# TASK 4
+## Subtask 2
+https://docs.google.com/document/d/1qLtgVL4NZ-IISlH-qPYgLWMYgOvqpkscXGExNbuSCQI/edit
+## Subtask 3
+👉🏼*Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?*
+
+Aplikacja "Focusly" przeznaczona jest do ćwiczeń "mindfullness". Użytkownik w piewszych krokach ma możliwość dostosowania treści oferujących przez aplikację do włanych potrzeb. Aplikacja pomaga użytkownikowi w ćwićzeniach związanych z uważnością. Oferuje ona ćwićzenia medytacji, oddechu a także jest źródłem artykułow i nagrań, które pomagają odbiorcy w znaleznieniu życiowej równowagi.
+
+👉🏼*Kto ma być użytkownikiem końcowym aplikacji?*
+
+Użytkownikiem końcowym aplikacji jest każda osoba interesująca się tematyką "mindfullness" oraz osoby, które potrzebują pomocy w odnalezeniu spokoju i harmonii.
+
+👉🏼*Czy według Ciebie aplikacja jest user friendly?*
+
+Aplikacja jest user friendly i intuicyjna. Dolny pasek z opcjami pozwala na łatwe poruszanie się po najważniejszych funkcjach aplikacji. Jego umiejscowienie jest również wygodne dla użytkownika korzystającego z urządzenia mobilego, Uważam też, że zachowano właściwe proporcje między graficzną częscią a ilością tekstu, która nie przytłacza w odbiorze.
+
+👉🏼*Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?*
+
+Usprawnienia/ dodatkowe funkcjonalności:
+- Dodanie ikonki serduszka (ulubione) na dolnym pasku. Użytkownik ma mzliwość zapisywania swoich ulubionych nagrań, jednak są one póżniej trudne do odnaleznia, ich aktualana lokalizacja nie jest intuicyjna.
+- Podczas zmiany języka na angielski i powrotu na język polski, wszystkie wcześniej wybrane preferencje zostają wyczyszczone. Myślę, że warto byłoby dodać opcję zapisywania preferencji użytkownika. Sprawdziłaby się ona równiez w momencie, gdy odbiorca chce dokonać wyboru więcej niż jednej ścieżki.
+- Wersja angielska aplikacji jest znacznie "uboższa" od wersji polskiej. Wśród usprawnień dobrze by było również to poprawić.
+
+👉🏼*Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?*
+
+Wydaje mi się, że główną różnicą jest to, że testując aplikację natywną zwraca się bardziej uwagę na aspekt user-friendly aplikacji. Poza sprawdzaniem czt dane funkcjonalności działają ważne jest, aby dane ikony były również odpowiednio rozmieszczone, ułatwijąc użytkowikowi korzystanie z aplikacji. Podczas testowania alikacji natywnej można również sprawdzić jej powiązania z zasobem i ustawieniami dostępnymi na urządzeniu.
+Testując z kolei aplikację internetową ważnym narzędziem są devtoolsy. Ważną różnicą jest również to, że aplikacja natywna może działać bez dostępu do sieci, co jest niemożliwe w przypadku aplikacji internetowej. 
+Aplikacje natywne dedykowane są określonemu systemowi, a aplikacje internetowe mogą działać na dowlonym systemie, dlatego w przypadku tych drugich warto przetestować je na różnych systemach/ przeglądarkach.
+
+
