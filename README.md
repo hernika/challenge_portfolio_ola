@@ -125,9 +125,9 @@ Wydaje mi się, że główną różnicą jest to, że testując aplikację natyw
 - date diff
 - join
 
-*Agregujące*
--count
--sum
--min
+👉🏼*Funkcje agregujące*
+- count
+- sum
+- min
 
 
