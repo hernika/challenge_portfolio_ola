@@ -93,4 +93,41 @@ Usprawnienia/ dodatkowe funkcjonalności:
 
 Wydaje mi się, że główną różnicą jest to, że testując aplikację natywną (mobilną) zwraca się bardziej uwagę na aspekt accessibilty aplikacji. Poza sprawdzaniem czy dane funkcjonalności działają ważne jest, aby dane ikony były również odpowiednio rozmieszczone, ułatwiając użytkowikowi korzystanie z aplikacji natywnej. Podczas korzystania z takiej aplikacji, użytkownik ma ograniczoną możliwość jej obsługi w porównaniu do korzystania z aplikacji internetowej. Podczas testowania alikacji natywnej można również sprawdzić jej powiązania z zasobem i ustawieniami dostępnymi na urządzeniu. Ważną różnicą jest również to, że aplikacja natywna może działać bez dostępu do sieci, co jest niemożliwe w przypadku aplikacji internetowej. Dodatkowo, aplikacje natywne dedykowane są określonemu systemowi, a aplikacje internetowe mogą działać na dowlonym systemie, dlatego w przypadku tych drugich warto przetestować je na różnych systemach/ przeglądarkach.
 
+# TASK 5
+## Subtask 1
+👉🏼*Wymień operatory/zapytania jakich się nauczyłaś 🧠*
+- select
+- use
+- go
+- create
+- order by
+- group by
+- <
+- >
+- =
+- <>
+- between
+- and
+- or
+- where
+- as
+- from
+- like
+- is
+- is not
+- in
+- on
+
+👉🏼*Funkcje*
+- get date
+- upper
+- lower
+- date diff
+- join
+
+*Agregujące*
+-count
+-sum
+-min
+
 
