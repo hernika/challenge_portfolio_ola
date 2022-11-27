@@ -102,9 +102,7 @@ Wydaje mi się, że główną różnicą jest to, że testując aplikację natyw
 - create
 - order by
 - group by
-- >, <
-- =
-- <>
+- =, <>, >, <
 - between
 - and
 - or
@@ -118,10 +116,10 @@ Wydaje mi się, że główną różnicą jest to, że testując aplikację natyw
 - on
 
 👉🏼*Funkcje*
-- get date
+- getdate
 - upper
 - lower
-- date diff
+- datediff
 - join
 
 👉🏼*Funkcje agregujące*
