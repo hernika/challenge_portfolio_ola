@@ -102,8 +102,7 @@ Wydaje mi się, że główną różnicą jest to, że testując aplikację natyw
 - create
 - order by
 - group by
-- <
-- >
+- >, <
 - =
 - <>
 - between
