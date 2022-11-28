@@ -127,4 +127,12 @@ Wydaje mi się, że główną różnicą jest to, że testując aplikację natyw
 - sum
 - min
 
+## Subtask 3
+👉🏼*Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname*
+
+SELECT *
+FROM actors
+ORDER BY surname
+
+
 
