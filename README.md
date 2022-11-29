@@ -80,7 +80,7 @@ Użytkownikiem końcowym aplikacji jest każda osoba interesująca się tematyk�
 
 👉🏼*Czy według Ciebie aplikacja jest user friendly?*
 
-Aplikacja jest user friendly oraz intuicyjna. Dolny pasek z opcjami pozwala na łatwe poruszanie się po najważniejszych funkcjach aplikacji. Jego umiejscowienie jest również wygodne dla użytkownika korzystającego z urządzenia mobilego. Uważam też, że zachowano właściwe proporcje między graficzną częścią a ilością tekstu, która nie przytłacza w odbiorze.
+Aplikacja jest user friendly. Dolny pasek z opcjami pozwala na łatwe poruszanie się po najważniejszych funkcjach aplikacji. Jego umiejscowienie jest również wygodne dla użytkownika korzystającego z urządzenia mobilego. Uważam też, że zachowano właściwe proporcje między graficzną częścią a ilością tekstu, która nie przytłacza w odbiorze.
 
 👉🏼*Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?*
 
