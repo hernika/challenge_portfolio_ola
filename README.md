@@ -213,7 +213,7 @@ WHERE price > 9 AND (movie_id BETWEEN 2 AND 8)
 
 ![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task5/Subtask3/Images/10.png)
 
-# TASK 1
+# TASK 6
 ## Subtask 1
 
 👉🏼*Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈*
