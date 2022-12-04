@@ -314,7 +314,7 @@ VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 ![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task6/Subtask1/Images/20.png)
 
 
-## Subtask 1
+## Subtask 2
 12/15
 
 
