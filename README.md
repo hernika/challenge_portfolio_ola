@@ -213,6 +213,113 @@ WHERE price > 9 AND (movie_id BETWEEN 2 AND 8)
 
 ![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task5/Subtask3/Images/10.png)
 
+# TASK 1
+## Subtask 1
+
+👉🏼*Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈*
+
+UPDATE customers
+SET surname = 'Miler'
+WHERE customer_id = 3
+
+![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task6/Subtask1/Images/11.png)
+
+👉🏼*Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z
+funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o
+pomyłce fantastycznej szefowej*
+
+SELECT customers.name, customers.email
+FROM customers
+INNER JOIN sale ON customers.customer_id = sale.customer_id
+WHERE sale.movie_id = 4
+
+![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task6/Subtask1/Images/12.png)
+
+👉🏼*Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten
+brak wpisując: pati@mail.com*
+
+UPDATE customers
+SET email = 'pati@mail.com'
+WHERE customer_id = 4
+
+![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task6/Subtask1/Images/13.png)
+
+👉🏼*Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł
+wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci
+się przydadzą do wykonania ćwiczenia)*
+
+SELECT customers.name, customers.surname, movies.title
+FROM customers
+INNER JOIN sale ON customers.customer_id = sale.customer_id
+INNER JOIN movies ON movies.movie_id = sale.movie_id
+
+![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task6/Subtask1/Images/14.png)
+
+👉🏼*W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o
+nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył
+się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag*
+
+ALTER TABLE customers
+ADD pseudonym char(3);
+UPDATE customers SET pseudonym = CONCAT(LEFT(customers.name, 2), RIGHT(customers.surname,
+1))
+
+![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task6/Subtask1/Images/15.png)
+
+👉🏼*Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie
+powtarzały*
+
+SELECT DISTINCT movies.title
+FROM movies
+INNER JOIN sale ON sale.movie_id=movies.movie_id
+
+![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task6/Subtask1/Images/16.png)
+
+👉🏼*Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie.
+(Wykorzystaj do tego funkcji UNION)*
+
+SELECT name FROM customers
+UNION
+SELECT name FROM actors
+ORDER BY name ASC
+
+![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task6/Subtask1/Images/17.png)
+
+👉🏼*Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę
+wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna
+jednostka- nie używaj jej nigdzie)*
+
+UPDATE movies
+SET price = price + 2.5
+WHERE movies.year_of_production>2000
+
+![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task6/Subtask1/Images/18.png)
+
+👉🏼*Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał*
+
+SELECT actors.name, actors.surname, movies.title
+FROM actors
+INNER JOIN cast ON cast.actor_id = actors.actor_id
+INNER JOIN movies ON movies.movie_id = cast.movie_id
+WHERE actors.actor_id = 4
+
+![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task6/Subtask1/Images/19.png)
+
+👉🏼*A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name =
+Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa*
+
+INSERT INTO customers (customer_id, name, surname, email, pseudonym)
+VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
+
+![alt text](https://github.com/hernika/challenge_portfolio_ola/blob/main/Task6/Subtask1/Images/20.png)
+
+
+
+
+
+
+
+
 
 
 
