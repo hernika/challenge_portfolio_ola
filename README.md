@@ -317,6 +317,9 @@ VALUES (7, 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa')
 ## Subtask 2
 12/15
 
+## Subtask 3
+Portfolio<br>
+https://github.com/hernika/portfolio_AHernik/blob/main/README.md
 
 
 
